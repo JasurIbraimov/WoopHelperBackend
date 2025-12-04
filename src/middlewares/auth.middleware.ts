@@ -1,4 +1,4 @@
-import db from '$/db/index.js';
+import db from '../db/index.js';
 
 export const authMiddleware = async (req, res, next) => {
   try {

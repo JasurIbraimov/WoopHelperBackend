@@ -6,9 +6,6 @@
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "baseUrl": "./",
-    "paths": {
-      "$/*": ["src/*"]
-    },
     "outDir": "./dist",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,

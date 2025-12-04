@@ -1,4 +1,4 @@
-import db from '$/db/index.js';
+import db from '../../db/index.js';
 import { NextFunction, Request, Response, Router } from 'express';
 import { body, validationResult } from 'express-validator';
 
