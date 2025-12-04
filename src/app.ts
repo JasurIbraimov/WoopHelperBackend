@@ -6,7 +6,7 @@ import publicApi from '../src/routes/public/index.js';
 import auth from './api/auth/index.js';
 import { authMiddleware } from './middlewares/auth.middleware.js';
 
-import { cookieParser } from 'cookie-parser';
+import cookieParser from 'cookie-parser';
 
 const APP_PREFIX = '/core';
 
